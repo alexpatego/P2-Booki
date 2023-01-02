@@ -17,9 +17,8 @@ Text: Raleway
   - Tertiary: #F2F2F2
 
 ### Specifications ###
-Desktop first
-Sketch desktop version: provided
-Sketch mobile version: provided
-Sketch tablet version: none
-W3C Validator HTML: check
-W3C Validator CSS: check
+  - Desktop first
+  - Desktop model version: provided
+  - Mobile model version: provided
+  - Tablet model version: none
+
