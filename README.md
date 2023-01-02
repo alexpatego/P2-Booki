@@ -8,7 +8,7 @@ This responsive website allows users to find accommodation and activities in the
   - CSS 3
 
 ### Font text ###
-Text: Raleway
+  - Text: Raleway
 
 ### Colors ###
 
