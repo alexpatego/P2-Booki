@@ -32,7 +32,7 @@
 }
 
 .info{
-    margin-top: 1rem;
+    margin: 1rem 0rem;
     display: flex;
     align-items: center;
 }
@@ -52,5 +52,4 @@
     .filter_list h3{
         width: 100%;
     }
-
 }
