@@ -1,0 +1,104 @@
+/* Appartements */
+
+#appartement_list{
+    display: flex;
+    gap: 1rem;
+}
+
+#appartement_list > div {
+    background-color: var(--tertiary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#appartement_list .city{
+    flex-basis: 66%;
+}
+
+#appartement_list .popular{
+    flex-basis: 33%;
+}
+
+@media screen and (max-width: 1024px) {
+    #appartement_list{
+        flex-direction: column;
+    }
+}
+
+
+/* List Appartements */
+
+.city-marseille-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.city-marseille-list div{
+    flex-basis: calc(33% - 1rem);
+}
+
+#appartement_list .popular-marseille-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#appartement_list h2{
+    flex-basis: 100%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    #appartement_list .popular-marseille-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    #appartement_list .popular {
+        order: -1;
+    }
+
+    #appartement_list {
+        flex-direction: column;
+    }
+}
+
+/* Appartement card */
+
+.appartement-card{
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem #0000002e;
+    flex-grow: 1;
+    min-width: 15rem;
+    transition: all 0.2s;
+}
+
+.appartement-card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 5px 12px 1px #0000002e;
+}
+.appartement-card img{
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    object-fit: cover;
+}
+
+.appartement-card p, 
+.appartement-card h3,
+.popular-card h3,
+.popular-card p{
+    margin: 0.2rem;
+}
+.appartement-card h3,
+.popular-card h3{
+    padding-bottom: 0.3rem;
+}

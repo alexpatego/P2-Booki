@@ -1,0 +1,41 @@
+/* Footer */
+
+footer {
+    background-color: var(--tertiary-color);
+    margin-top: 1rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+}
+
+footer .column {
+    flex-basis: 100%;
+}
+
+footer .column h2:hover {
+  color: var(--primary-color);
+}
+
+footer .column ul {
+    padding: 0rem;
+    list-style-type: none;
+}
+
+footer .column ul li a {
+    line-height: 2rem;
+}
+
+footer .column ul li:hover {
+  transform: scale(1.02);
+}
+
+.informations__github {
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 784px) {
+  footer {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  }
+}
