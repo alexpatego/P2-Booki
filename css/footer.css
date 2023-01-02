@@ -3,8 +3,8 @@
 footer {
     background-color: var(--tertiary-color);
     margin-top: 1rem;
-    padding: 1.5rem 2rem;
     display: flex;
+    padding: 2rem 5rem;
 }
 
 footer .column {
@@ -37,5 +37,6 @@ footer .column ul li:hover {
       display: grid;
       grid-template-columns: 1fr;
       gap: 1rem;
+      padding: 2rem;
   }
 }
